@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Ignoruj pliki i katalogi związane z IDE/edytorami kodu
+.vscode/
+.idea/
+*.swp
+
+# Pliki konfiguracyjne systemów zarządzania wersjami
+.git/
+.gitignore
+Dockerfile
+docker-compose.yml
+
+# Ignoruj lokalne pliki środowiskowe
+# .env NOTE, EXCEPTION HERE FOR TEST PURPOSES
+
+# Ignoruj foldery zewnętrzne, które nie są potrzebne
+node_modules/
+bower_components/
+
+# Ignoruj pliki build
+build/
+dist/
+*.egg-info
+
+venv/
